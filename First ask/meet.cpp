@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main()
+{
+	int mutton;
+	int beaf;
+	int golden;
+	int wings;
+	int neck;
+	int legs;
+	int chicken;
+	printf("Price list \n");
+	printf("Muttton Price = 1400 per kg:\n");
+	printf("Beaf = 550 per kg:\n");
+	printf("Chicken Golden Price = 520 per kg:\n");
+	printf("Chicken Wings Price = 220 per kg:\n");
+	printf("Chicken neck Price =160 per kg:\n");
+	printf("Chicken Legs Price =320 per kg:\n");
+	printf("Chicken Meat Price =450 per kg:\n");
+	printf("\n");
+	printf("Total sell in Mutton is 20kg:\n");
+	printf("Total sell in Beaf is 10:\n");
+	printf("Total sell in Chicken Golden is 30kg:\n");
+	printf("Total sell in  Chicken Wings is 30kg:\n");
+	printf("Total sell in Chicken neck is 30kg:\n");
+	printf("Total sell in Chicken Legs is 30kg:\n");
+	printf("Total sell in Chicken Meat is 30kg:\n");
+	mutton=1400*20;
+	beaf=550*10;
+	golden=520*30;
+	wings=220*30;
+	neck=160*30;
+	legs=320*30;
+	chicken=450*30;
+	printf("\nTotal Amount of Mutton is=%d\n",mutton);
+	printf("Total Amount of Beaf is=%d\n",beaf);
+	printf("Total Amount of Chciken Golden is=%d\n",golden);
+	printf("Total Amount of Chicken Wings is=%d\n",wings);
+	printf("Total Amount of Neck is=%d\n",neck);
+	printf("Total Amount of Legs is=%d\n",legs);
+	printf("Total Amount of Meat is=%d\n\n",chicken);
+	mutton=(mutton*20)/100;
+	beaf=(beaf*20)/100;
+	golden=(golden*20)/100;
+	wings=(wings*20)/100;
+	neck=(neck*20)/100;
+	legs=(legs*20)/100;
+	chicken=(chicken*20)/100;
+	printf("The Profit on Mutton is=%d\n",mutton);	
+	printf("The Profit on Beaf is=%d\n",beaf);
+	printf("The Profit on Chicken Golden is=%d\n",golden);
+	printf("The Profit on Chicekn Wings is=%d\n",wings);
+	printf("The Profit on Chicken Neck is=%d\n",neck);
+	printf("The Profit on Chicken Legs is=%d\n",legs);
+	printf("The Profit on Chicekn Meat is=%d\n",chicken);
+	return 0;
+}
